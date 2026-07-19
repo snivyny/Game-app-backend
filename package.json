@@ -1,0 +1,21 @@
+{
+  "name": "game-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for the mobile task/game app (money, exp, VIP, mini-games)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "better-sqlite3": "^11.3.0",
+    "node-cron": "^3.0.3",
+    "socket.io": "^4.7.5",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
